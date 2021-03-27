@@ -1,0 +1,21 @@
+.arloading {
+height: 5px;
+width: 50px;
+position: relative;
+background-color:#0064FF;
+animation-name: loading;
+animation-timing-function: linear;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+overflow:hidden;
+}
+		
+@keyframes loading {
+	0% {left: -15%;}
+	100% {left: 100%;}
+}		
+
+.ar-line {
+overflow:hidden;
+z-index: -10;
+		}
