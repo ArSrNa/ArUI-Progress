@@ -18,5 +18,8 @@ overflow:hidden;
 .ar-line {
 overflow:hidden;
 z-index: -10;
-box-shadow: 0px 0px 10px 2px #AAAAAA;
 		}
+
+.bg {
+ box-shadow: 0px 0px 8px 2px #AAAAAA;
+}
